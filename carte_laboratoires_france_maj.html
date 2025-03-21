@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_84c8293a6e2572275e2154ed8b024590 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_84c8293a6e2572275e2154ed8b024590" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_84c8293a6e2572275e2154ed8b024590 = L.map(
+                "map_84c8293a6e2572275e2154ed8b024590",
+                {
+                    center: [46.603354, 1.888334],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8cdab8c6237a39237c21dba988f1ed04 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+            var marker_cf72b75ee29b13e460ee8184fbe7086a = L.marker(
+                [45.779379, 3.087974],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_c5c7d7564739f4c48e80e8a9f90959a8 = L.popup({"maxWidth": 400});
+
+        
+            var html_11d31964e5dc44c72162f848a949f808 = $(`<div id="html_11d31964e5dc44c72162f848a949f808" style="width: 100.0%; height: 100.0%;">     <b>ACTIVITE, CONNAISSANCE, TRANSMISSION, EDUCATION</b><br>     <b>Directeur :</b> Béatrice DROT-DELANGE<br>     <b>Contact :</b> <a href="mailto:beatrice.drot-delange@uca.fr">beatrice.drot-delange@uca.fr</a><br>     <b>Université :</b> Université Blaise Pascal Clermont-Ferrand<br>     <b>Adresse :</b> rue Blaise Pascal, 63000 Clermont-Ferrand, France<br>     <a href="https://acte.uca.fr/acte/presentation-du-laboratoire/le-laboratoire-acte" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_c5c7d7564739f4c48e80e8a9f90959a8.setContent(html_11d31964e5dc44c72162f848a949f808);
+        
+
+        marker_cf72b75ee29b13e460ee8184fbe7086a.bindPopup(popup_c5c7d7564739f4c48e80e8a9f90959a8)
+        ;
+
+        
+    
+    
+            marker_cf72b75ee29b13e460ee8184fbe7086a.bindTooltip(
+                `<div>
+                     ACTIVITE, CONNAISSANCE, TRANSMISSION, EDUCATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b193933cd59ae1f6fe202def58917427 = L.marker(
+                [43.29695, 5.38107],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_afdc9225e41285a051e471494153607e = L.popup({"maxWidth": 400});
+
+        
+            var html_f491f6504cc8a889a086a797960c9936 = $(`<div id="html_f491f6504cc8a889a086a797960c9936" style="width: 100.0%; height: 100.0%;">     <b>APPRENTISSAGE, DIDACTIQUE, EVALUATION, FORMATION</b><br>     <b>Directeur :</b> Christine Poplimont<br>     <b>Contact :</b> <a href="mailto:christine.poplimont@univ-amu.fr">christine.poplimont@univ-amu.fr</a><br>     <b>Université :</b> Université Aix-Marseille<br>     <b>Adresse :</b> Marseille, Bouches-du-Rhône, France<br>     <a href="http://adef.univ-amu.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_afdc9225e41285a051e471494153607e.setContent(html_f491f6504cc8a889a086a797960c9936);
+        
+
+        marker_b193933cd59ae1f6fe202def58917427.bindPopup(popup_afdc9225e41285a051e471494153607e)
+        ;
+
+        
+    
+    
+            marker_b193933cd59ae1f6fe202def58917427.bindTooltip(
+                `<div>
+                     APPRENTISSAGE, DIDACTIQUE, EVALUATION, FORMATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03a8bd71dfb796bf0be9ff94ff7f407c = L.marker(
+                [49.820398, 2.314267],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_5e8d49bc0f5a19914c5accbfa2c8e62b = L.popup({"maxWidth": 400});
+
+        
+            var html_03d6e21e79295bed11794e23eb8440cd = $(`<div id="html_03d6e21e79295bed11794e23eb8440cd" style="width: 100.0%; height: 100.0%;">     <b>CENTRE AMIENOIS DE RECHERCHE EN EDUCATION ET FORMATION</b><br>     <b>Directeur :</b> Bruno Poucet<br>     <b>Contact :</b> <a href="mailto:nan">nan</a><br>     <b>Université :</b> Université de Picardie Jules Verne (Amiens)<br>     <b>Adresse :</b> Petit Chemin d’Amiens, 80680 Sains-en-Amiénois, France<br>     <a href="https://www.u-picardie.fr/unites-de-recherche/caref/accueil/centre-amienois-de-recherche-en-education-et-formation-386824.kjsp" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_5e8d49bc0f5a19914c5accbfa2c8e62b.setContent(html_03d6e21e79295bed11794e23eb8440cd);
+        
+
+        marker_03a8bd71dfb796bf0be9ff94ff7f407c.bindPopup(popup_5e8d49bc0f5a19914c5accbfa2c8e62b)
+        ;
+
+        
+    
+    
+            marker_03a8bd71dfb796bf0be9ff94ff7f407c.bindTooltip(
+                `<div>
+                     CENTRE AMIENOIS DE RECHERCHE EN EDUCATION ET FORMATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4837906f0ed72b0ae4b1bd6bb9fe6eba = L.marker(
+                [44.84044, -0.5805],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_9f02003ea4205f1525857231e4d8de5c = L.popup({"maxWidth": 400});
+
+        
+            var html_a7de1e0b98d8e4d588974cb3aa5c6f43 = $(`<div id="html_a7de1e0b98d8e4d588974cb3aa5c6f43" style="width: 100.0%; height: 100.0%;">     <b>LABORATOIRE CULTURE ET DIFFUSION DES SAVOIRS</b><br>     <b>Directeur :</b> Marie-Pierre Chopin<br>     <b>Contact :</b> <a href="mailto:marie-pierre.chopin@u-bordeaux.fr">marie-pierre.chopin@u-bordeaux.fr</a><br>     <b>Université :</b> Université de Bordeaux<br>     <b>Adresse :</b> Bordeaux, Gironde, France<br>     <a href="https://ceds.u-bordeaux.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_9f02003ea4205f1525857231e4d8de5c.setContent(html_a7de1e0b98d8e4d588974cb3aa5c6f43);
+        
+
+        marker_4837906f0ed72b0ae4b1bd6bb9fe6eba.bindPopup(popup_9f02003ea4205f1525857231e4d8de5c)
+        ;
+
+        
+    
+    
+            marker_4837906f0ed72b0ae4b1bd6bb9fe6eba.bindTooltip(
+                `<div>
+                     LABORATOIRE CULTURE ET DIFFUSION DES SAVOIRS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47c21664598b9dcfb6a9e511a1ec51a7 = L.marker(
+                [49.252301, 4.037102],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_a6c5728da550d9446031acff9eebc498 = L.popup({"maxWidth": 400});
+
+        
+            var html_1fbe6a56be7ad481ea2decc4ace4e2d5 = $(`<div id="html_1fbe6a56be7ad481ea2decc4ace4e2d5" style="width: 100.0%; height: 100.0%;">     <b>CENTRE D'ETUDE ET DE RECHERCHE SUR LES EMPLOIS ET LA PROFESSIONNALISATION</b><br>     <b>Directeur :</b> Suzane El Hage<br>     <b>Contact :</b> <a href="mailto:suzane.elhage[at]univ-reims.fr">suzane.elhage[at]univ-reims.fr</a><br>     <b>Université :</b> Université de Reims<br>     <b>Adresse :</b> Rue de l'Université, 51100 Reims, France<br>     <a href="https://www.univ-reims.fr/cerep/presentation/cerep,10145,23878.html" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_a6c5728da550d9446031acff9eebc498.setContent(html_1fbe6a56be7ad481ea2decc4ace4e2d5);
+        
+
+        marker_47c21664598b9dcfb6a9e511a1ec51a7.bindPopup(popup_a6c5728da550d9446031acff9eebc498)
+        ;
+
+        
+    
+    
+            marker_47c21664598b9dcfb6a9e511a1ec51a7.bindTooltip(
+                `<div>
+                     CENTRE D'ETUDE ET DE RECHERCHE SUR LES EMPLOIS ET LA PROFESSIONNALISATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7dd7d7748b54921b5b154d4867606a2 = L.marker(
+                [48.86086, 2.315226],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_9b3f4e8b6747f3dbbdb6d53dcecc7712 = L.popup({"maxWidth": 400});
+
+        
+            var html_cd860f74ecd75a01792316beb87be157 = $(`<div id="html_cd860f74ecd75a01792316beb87be157" style="width: 100.0%; height: 100.0%;">     <b>CENTRE DE RECHERCHE SUR LES LIENS SOCIAUX</b><br>     <b>Directeur :</b> Romain Pudal<br>     <b>Contact :</b> <a href="mailto:Pudal.romain@gmail.com">Pudal.romain@gmail.com</a><br>     <b>Université :</b> Université Paris Cité<br>     <b>Adresse :</b> Rue de l'Université, 75007 Paris, France<br>     <a href="https://www.cerlis.eu/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_9b3f4e8b6747f3dbbdb6d53dcecc7712.setContent(html_cd860f74ecd75a01792316beb87be157);
+        
+
+        marker_b7dd7d7748b54921b5b154d4867606a2.bindPopup(popup_9b3f4e8b6747f3dbbdb6d53dcecc7712)
+        ;
+
+        
+    
+    
+            marker_b7dd7d7748b54921b5b154d4867606a2.bindTooltip(
+                `<div>
+                     CENTRE DE RECHERCHE SUR LES LIENS SOCIAUX
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d2dedb96cf91ffb2ae7d9e977cfeaa1 = L.marker(
+                [50.62852, 3.12623],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_e18f8dec26bb1d13b53e6aaae6a29259 = L.popup({"maxWidth": 400});
+
+        
+            var html_d46ac1173b423c60d73632f757c46409 = $(`<div id="html_d46ac1173b423c60d73632f757c46409" style="width: 100.0%; height: 100.0%;">     <b>CENTRE INTERUNIVERSITAIRE DE RECHERCHE EN ÉDUCATION DE LILLE</b><br>     <b>Directeur :</b> Abdelkarim Zaid<br>     <b>Contact :</b> <a href="mailto:abdelkarim.zaid@univ-lille.fr">abdelkarim.zaid@univ-lille.fr</a><br>     <b>Université :</b> Université de Lille<br>     <b>Adresse :</b> 3 rue du barreau - BP 60149 59653 Villeneuve d'Ascq Cedex<br>     <a href="https://cirel.univ-lille.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_e18f8dec26bb1d13b53e6aaae6a29259.setContent(html_d46ac1173b423c60d73632f757c46409);
+        
+
+        marker_7d2dedb96cf91ffb2ae7d9e977cfeaa1.bindPopup(popup_e18f8dec26bb1d13b53e6aaae6a29259)
+        ;
+
+        
+    
+    
+            marker_7d2dedb96cf91ffb2ae7d9e977cfeaa1.bindTooltip(
+                `<div>
+                     CENTRE INTERUNIVERSITAIRE DE RECHERCHE EN ÉDUCATION DE LILLE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c56c87d8c18d0469a346709efcbdb01 = L.marker(
+                [49.42956, 1.073925],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_d689f07eb7cdef9279c837c89d15e9ea = L.popup({"maxWidth": 400});
+
+        
+            var html_8405ae2d2c6172a4b2484c5e9bf0df78 = $(`<div id="html_8405ae2d2c6172a4b2484c5e9bf0df78" style="width: 100.0%; height: 100.0%;">     <b>CENTRE INTERDISCIPLINAIRE DE RECHERCHE NORMAND EN EDUCATION ET FORMATION</b><br>     <b>Directeur :</b> Richard Wittorski<br>     <b>Contact :</b> <a href="mailto:richard.wittorski@univ-rouen.fr">richard.wittorski@univ-rouen.fr</a><br>     <b>Université :</b> Université de Caen-Normandie et de Université de Rouen Normandie<br>     <b>Adresse :</b> Avenue de Caen, 76100 Rouen, France<br>     <a href="http://cirnef.normandie-univ.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_d689f07eb7cdef9279c837c89d15e9ea.setContent(html_8405ae2d2c6172a4b2484c5e9bf0df78);
+        
+
+        marker_3c56c87d8c18d0469a346709efcbdb01.bindPopup(popup_d689f07eb7cdef9279c837c89d15e9ea)
+        ;
+
+        
+    
+    
+            marker_3c56c87d8c18d0469a346709efcbdb01.bindTooltip(
+                `<div>
+                     CENTRE INTERDISCIPLINAIRE DE RECHERCHE NORMAND EN EDUCATION ET FORMATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbdfc2558b90e5a90899a06fddc22145 = L.marker(
+                [48.12158, -1.70421],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_7fab679a705da7fc5858c4a55d3348c2 = L.popup({"maxWidth": 400});
+
+        
+            var html_0388483a7383807ec57f50d6f1b295c3 = $(`<div id="html_0388483a7383807ec57f50d6f1b295c3" style="width: 100.0%; height: 100.0%;">     <b>CENTRE DE RECHERCHE SUR L'EDUCATION, LES APPRENTISSAGES ET LA DIDACTIQUE</b><br>     <b>Directeur :</b> Hugues Pentecouteau<br>     <b>Contact :</b> <a href="mailto:hugues.pentecouteau@univ-rennes2.fr">hugues.pentecouteau@univ-rennes2.fr</a><br>     <b>Université :</b> Université Rennes 2 et Université de Bretagne Occidentale<br>     <b>Adresse :</b> Place du recteur Henri le Moal CS 24307 35043 Rennes Cedex<br>     <a href="https://www.cread-bretagne.fr" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_7fab679a705da7fc5858c4a55d3348c2.setContent(html_0388483a7383807ec57f50d6f1b295c3);
+        
+
+        marker_dbdfc2558b90e5a90899a06fddc22145.bindPopup(popup_7fab679a705da7fc5858c4a55d3348c2)
+        ;
+
+        
+    
+    
+            marker_dbdfc2558b90e5a90899a06fddc22145.bindTooltip(
+                `<div>
+                     CENTRE DE RECHERCHE SUR L'EDUCATION, LES APPRENTISSAGES ET LA DIDACTIQUE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d6931a006605d46686f627661d33252 = L.marker(
+                [48.89198, 2.20675],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_e616140a7283ba200f9d210c1fd1ad63 = L.popup({"maxWidth": 400});
+
+        
+            var html_441e31b1309f5ceeafb19e63c024da32 = $(`<div id="html_441e31b1309f5ceeafb19e63c024da32" style="width: 100.0%; height: 100.0%;">     <b>CENTRE DE RECHERCHES EDUCATION ET FORMATION</b><br>     <b>Directeur :</b> Gilles Séraphin<br>     <b>Contact :</b> <a href="mailto:gilles.seraphin@parisnanterre.fr">gilles.seraphin@parisnanterre.fr</a><br>     <b>Université :</b> Université Paris Ouest Nanterre La Défense<br>     <b>Adresse :</b> Nanterre, Hauts-de-Seine, France<br>     <a href="https://cref.parisnanterre.fr/accueil/bienvenue-sur-le-site-du-cref-274466.kjsp" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_e616140a7283ba200f9d210c1fd1ad63.setContent(html_441e31b1309f5ceeafb19e63c024da32);
+        
+
+        marker_0d6931a006605d46686f627661d33252.bindPopup(popup_e616140a7283ba200f9d210c1fd1ad63)
+        ;
+
+        
+    
+    
+            marker_0d6931a006605d46686f627661d33252.bindTooltip(
+                `<div>
+                     CENTRE DE RECHERCHES EDUCATION ET FORMATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12733813b651a7912f837d6e693a9ea7 = L.marker(
+                [47.21725, -1.55336],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_7d5b9065f84bd2743e35371471aacb5f = L.popup({"maxWidth": 400});
+
+        
+            var html_5d5d15a62a219d567bbbca037f72d461 = $(`<div id="html_5d5d15a62a219d567bbbca037f72d461" style="width: 100.0%; height: 100.0%;">     <b>CENTRE DE RECHERCHE EN EDUCATION DE NANTES</b><br>     <b>Directeur :</b> Christophe Michaut<br>     <b>Contact :</b> <a href="mailto:Christophe.Michaut@univ-nantes.fr">Christophe.Michaut@univ-nantes.fr</a><br>     <b>Université :</b> Université de Nantes<br>     <b>Adresse :</b> Nantes, Loire-Atlantique, France<br>     <a href="http://cren.univ-nantes.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_7d5b9065f84bd2743e35371471aacb5f.setContent(html_5d5d15a62a219d567bbbca037f72d461);
+        
+
+        marker_12733813b651a7912f837d6e693a9ea7.bindPopup(popup_7d5b9065f84bd2743e35371471aacb5f)
+        ;
+
+        
+    
+    
+            marker_12733813b651a7912f837d6e693a9ea7.bindTooltip(
+                `<div>
+                     CENTRE DE RECHERCHE EN EDUCATION DE NANTES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e3e6fccd962de17b02c91cfececac0a = L.marker(
+                [16.2471, -61.53225],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_c87a2e8663992d0e4fcdae444d4c9736 = L.popup({"maxWidth": 400});
+
+        
+            var html_f8cbf8a87827e4584ccc6f3c2ecb4ee2 = $(`<div id="html_f8cbf8a87827e4584ccc6f3c2ecb4ee2" style="width: 100.0%; height: 100.0%;">     <b>CONTEXTES, RECHERCHES ET RESSOURCES EN EDUCATION ET FORMATION</b><br>     <b>Directeur :</b> Thomas Forissier<br>     <b>Contact :</b> <a href="mailto:tforissi@espe-guadeloupe.fr">tforissi@espe-guadeloupe.fr</a><br>     <b>Université :</b> Université des Antilles<br>     <b>Adresse :</b> Morne Ferret – BP 517, 97178 Abymes Cedex<br>     <a href="https://www.univ-antilles.fr/recherche/structures-de-recherche/crref-centre-recherches-ressources-en-education-formation" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_c87a2e8663992d0e4fcdae444d4c9736.setContent(html_f8cbf8a87827e4584ccc6f3c2ecb4ee2);
+        
+
+        marker_7e3e6fccd962de17b02c91cfececac0a.bindPopup(popup_c87a2e8663992d0e4fcdae444d4c9736)
+        ;
+
+        
+    
+    
+            marker_7e3e6fccd962de17b02c91cfececac0a.bindTooltip(
+                `<div>
+                     CONTEXTES, RECHERCHES ET RESSOURCES EN EDUCATION ET FORMATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb2c159dff14a08f2857c700da73e51d = L.marker(
+                [49.912142, 2.233414],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_a35342b058b87c37252d4638c0a78d06 = L.popup({"maxWidth": 400});
+
+        
+            var html_db187acd156e0628cb3a2d547777d6a4 = $(`<div id="html_db187acd156e0628cb3a2d547777d6a4" style="width: 100.0%; height: 100.0%;">     <b>CENTRE UNIVERSITAIRE DE RECHERCHE SUR L'ACTION PUBLIQUE ET LE POLITIQUE</b><br>     <b>Directeur :</b> Remy Caveng<br>     <b>Contact :</b> <a href="mailto:remy.caveng@u-picardie.fr">remy.caveng@u-picardie.fr</a><br>     <b>Université :</b> Université de Picardie Jules Verne (Amiens)<br>     <b>Adresse :</b> Rue Jules Verne, 80470 Dreuil-lès-Amiens, France<br>     <a href="https://www.u-picardie.fr/curapp/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_a35342b058b87c37252d4638c0a78d06.setContent(html_db187acd156e0628cb3a2d547777d6a4);
+        
+
+        marker_fb2c159dff14a08f2857c700da73e51d.bindPopup(popup_a35342b058b87c37252d4638c0a78d06)
+        ;
+
+        
+    
+    
+            marker_fb2c159dff14a08f2857c700da73e51d.bindTooltip(
+                `<div>
+                     CENTRE UNIVERSITAIRE DE RECHERCHE SUR L'ACTION PUBLIQUE ET LE POLITIQUE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfd71cb30547ce8b2df0588989bb60db = L.marker(
+                [45.74939, 4.83691],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_46226b1c1bd5b56a11fa8c228b2aea0f = L.popup({"maxWidth": 400});
+
+        
+            var html_478e807cd10c9d6c12841bf50ffe2ca3 = $(`<div id="html_478e807cd10c9d6c12841bf50ffe2ca3" style="width: 100.0%; height: 100.0%;">     <b>EDUCATION, CULTURES, POLITIQUES</b><br>     <b>Directeur :</b> Stéphane Simonian<br>     <b>Contact :</b> <a href="mailto:stephane.simonian@univ-lyon2.fr">stephane.simonian@univ-lyon2.fr</a><br>     <b>Université :</b> Université Lumière Lyon 2, Université Jean Monnet Saint-Etienne, INSPE de l’académie de Lyon, IFE-ENS de Lyon<br>     <b>Adresse :</b> 86 rue paster 69365 Lyon Cedex 07<br>     <a href="https://recherche.univ-lyon2.fr/ecp" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_46226b1c1bd5b56a11fa8c228b2aea0f.setContent(html_478e807cd10c9d6c12841bf50ffe2ca3);
+        
+
+        marker_dfd71cb30547ce8b2df0588989bb60db.bindPopup(popup_46226b1c1bd5b56a11fa8c228b2aea0f)
+        ;
+
+        
+    
+    
+            marker_dfd71cb30547ce8b2df0588989bb60db.bindTooltip(
+                `<div>
+                     EDUCATION, CULTURES, POLITIQUES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f15f7522333b8776ffc3a31ece1ffbba = L.marker(
+                [48.854703, 2.38391],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_c5ad538fa9b7f1f3cba330f6acdade6f = L.popup({"maxWidth": 400});
+
+        
+            var html_a3bae7da6b223f51d370f2bbbe1b0435 = $(`<div id="html_a3bae7da6b223f51d370f2bbbe1b0435" style="width: 100.0%; height: 100.0%;">     <b>EDUCATION DISCOURS APPRENTISSAGES</b><br>     <b>Directeur :</b> Mariam Haspekian<br>     <b>Contact :</b> <a href="mailto:mariam.haspekian@u-paris.fr">mariam.haspekian@u-paris.fr</a><br>     <b>Université :</b> Université Paris Cité<br>     <b>Adresse :</b> Cité du Couvent, 75011 Paris, France<br>     <a href="http://eda.recherche.parisdescartes.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_c5ad538fa9b7f1f3cba330f6acdade6f.setContent(html_a3bae7da6b223f51d370f2bbbe1b0435);
+        
+
+        marker_f15f7522333b8776ffc3a31ece1ffbba.bindPopup(popup_c5ad538fa9b7f1f3cba330f6acdade6f)
+        ;
+
+        
+    
+    
+            marker_f15f7522333b8776ffc3a31ece1ffbba.bindTooltip(
+                `<div>
+                     EDUCATION DISCOURS APPRENTISSAGES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58e1e7b61eb0c2d96c221d92df64cca2 = L.marker(
+                [47.38333, 0.68333],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_7bbb55faa00ee0c5b8a5dc9a7e495fee = L.popup({"maxWidth": 400});
+
+        
+            var html_55243b3eb19192145129b14eb42731a7 = $(`<div id="html_55243b3eb19192145129b14eb42731a7" style="width: 100.0%; height: 100.0%;">     <b>ÉDUCATION, ÉTHIQUE, SANTÉ</b><br>     <b>Directeur :</b> Hervé Breton<br>     <b>Contact :</b> <a href="mailto:direction.ees@univ-tours.fr">direction.ees@univ-tours.fr</a><br>     <b>Université :</b> Université de Tours<br>     <b>Adresse :</b> Tours, Indre and Loire, France<br>     <a href="https://www.univ-tours.fr/recherche/animer-la-recherche/nos-unites-de-recherche/ea-7505-education-%E2%80%93-ethique-sante-ees" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_7bbb55faa00ee0c5b8a5dc9a7e495fee.setContent(html_55243b3eb19192145129b14eb42731a7);
+        
+
+        marker_58e1e7b61eb0c2d96c221d92df64cca2.bindPopup(popup_7bbb55faa00ee0c5b8a5dc9a7e495fee)
+        ;
+
+        
+    
+    
+            marker_58e1e7b61eb0c2d96c221d92df64cca2.bindTooltip(
+                `<div>
+                     ÉDUCATION, ÉTHIQUE, SANTÉ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81db00d042888bc630deaea58cc79434 = L.marker(
+                [43.57574, 1.402072],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_b8c131dff136d7833a876f8d88a595e8 = L.popup({"maxWidth": 400});
+
+        
+            var html_3c8a023f4b301bc62d447ad3d40a6122 = $(`<div id="html_3c8a023f4b301bc62d447ad3d40a6122" style="width: 100.0%; height: 100.0%;">     <b>EDUCATION, FORMATION, TRAVAIL, SAVOIRS</b><br>     <b>Directeur :</b> Cécile Gardiès<br>     <b>Contact :</b> <a href="mailto:cecile.gardies@ensfea.fr">cecile.gardies@ensfea.fr</a><br>     <b>Université :</b> Université Toulouse Jean Jaurès<br>     <b>Adresse :</b> Rue de l'Université du Mirail, 31100 Toulouse, France<br>     <a href="https://efts.univ-tlse2.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_b8c131dff136d7833a876f8d88a595e8.setContent(html_3c8a023f4b301bc62d447ad3d40a6122);
+        
+
+        marker_81db00d042888bc630deaea58cc79434.bindPopup(popup_b8c131dff136d7833a876f8d88a595e8)
+        ;
+
+        
+    
+    
+            marker_81db00d042888bc630deaea58cc79434.bindTooltip(
+                `<div>
+                     EDUCATION, FORMATION, TRAVAIL, SAVOIRS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c17242b8546590e05b473e9ebd16c74b = L.marker(
+                [48.86086, 2.315226],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_ca9b6b8c5e77e408762a6505d2d86dc3 = L.popup({"maxWidth": 400});
+
+        
+            var html_955edbbc18f37e0c5803dad5e7d5bd8e = $(`<div id="html_955edbbc18f37e0c5803dad5e7d5bd8e" style="width: 100.0%; height: 100.0%;">     <b>ECOLE, MUTATIONS, APPRENTISSAGES</b><br>     <b>Directeur :</b> Lucile Cadet<br>     <b>Contact :</b> <a href="mailto:lucile.cadet@u-cergy.fr ">lucile.cadet@u-cergy.fr </a><br>     <b>Université :</b> Cergy Paris Université<br>     <b>Adresse :</b> Rue de l'Université, 75007 Paris, France<br>     <a href="https://www.u-cergy.fr/ema/fr/index.html" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_ca9b6b8c5e77e408762a6505d2d86dc3.setContent(html_955edbbc18f37e0c5803dad5e7d5bd8e);
+        
+
+        marker_c17242b8546590e05b473e9ebd16c74b.bindPopup(popup_ca9b6b8c5e77e408762a6505d2d86dc3)
+        ;
+
+        
+    
+    
+            marker_c17242b8546590e05b473e9ebd16c74b.bindTooltip(
+                `<div>
+                     ECOLE, MUTATIONS, APPRENTISSAGES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c19065c1098f938d2278ef9580140bad = L.marker(
+                [47.840262, 1.935692],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_c7b1b3838023f590ac234bcd053f171f = L.popup({"maxWidth": 400});
+
+        
+            var html_04e7dd435ac8733f93a8eb19f1dff0b9 = $(`<div id="html_04e7dd435ac8733f93a8eb19f1dff0b9" style="width: 100.0%; height: 100.0%;">     <b>EQUIPE DE RECHERCHE SUR LES CONTEXTES ET ACTEURS DER L'EDUCATION</b><br>     <b>Directeur :</b> Philippe Bourdier<br>     <b>Contact :</b> <a href="mailto:ercae@univ-orleans.fr">ercae@univ-orleans.fr</a><br>     <b>Université :</b> Université d'Orléans<br>     <b>Adresse :</b> Esplanade de l'Université, 45100 Orléans, France<br>     <a href="https://www.univ-orleans.fr/fr/ercae" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_c7b1b3838023f590ac234bcd053f171f.setContent(html_04e7dd435ac8733f93a8eb19f1dff0b9);
+        
+
+        marker_c19065c1098f938d2278ef9580140bad.bindPopup(popup_c7b1b3838023f590ac234bcd053f171f)
+        ;
+
+        
+    
+    
+            marker_c19065c1098f938d2278ef9580140bad.bindTooltip(
+                `<div>
+                     EQUIPE DE RECHERCHE SUR LES CONTEXTES ET ACTEURS DER L'EDUCATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c25f4f3683156126a61cb1b7b1223c87 = L.marker(
+                [48.86086, 2.315226],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_138e4efaec200ee0f63ae83a094d749e = L.popup({"maxWidth": 400});
+
+        
+            var html_aacbfb0ec46f594b1aeac02544fb6b76 = $(`<div id="html_aacbfb0ec46f594b1aeac02544fb6b76" style="width: 100.0%; height: 100.0%;">     <b>CENTRE DE RECHERCHE INTERUNIVERSITAIRE, EXPÉRIENCE, RESSOURCES CULTURELLES, ÉDUCATION</b><br>     <b>Directeur :</b> Carole Baeza<br>     <b>Contact :</b> <a href="mailto:carole.baeza@univ-paris13.fr">carole.baeza@univ-paris13.fr</a><br>     <b>Université :</b> Université Sorbonne Paris Nord et Paris 8<br>     <b>Adresse :</b> Rue de l'Université, 75007 Paris, France<br>     <a href="https://experice.univ-paris13.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_138e4efaec200ee0f63ae83a094d749e.setContent(html_aacbfb0ec46f594b1aeac02544fb6b76);
+        
+
+        marker_c25f4f3683156126a61cb1b7b1223c87.bindPopup(popup_138e4efaec200ee0f63ae83a094d749e)
+        ;
+
+        
+    
+    
+            marker_c25f4f3683156126a61cb1b7b1223c87.bindTooltip(
+                `<div>
+                     CENTRE DE RECHERCHE INTERUNIVERSITAIRE, EXPÉRIENCE, RESSOURCES CULTURELLES, ÉDUCATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd00d8de46618f39e7cc667d72c42dd9 = L.marker(
+                [45.837561, 1.247778],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_6d3a09541fbc89a055f70529126a1aaf = L.popup({"maxWidth": 400});
+
+        
+            var html_af1bf878bcd1bf4b6b78a7d5f4775a8e = $(`<div id="html_af1bf878bcd1bf4b6b78a7d5f4775a8e" style="width: 100.0%; height: 100.0%;">     <b>EDUCATION DIVERSITE EN ESPACES FRANCOPHONES</b><br>     <b>Directeur :</b> Pascale Bessaoud-Alonso<br>     <b>Contact :</b> <a href="mailto:patricia.alonso@unilim.fr">patricia.alonso@unilim.fr</a><br>     <b>Université :</b> Université de Limoges<br>     <b>Adresse :</b> rue de l'Université, 87100 Limoges, France<br>     <a href="https://www.unilim.fr/fred/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_6d3a09541fbc89a055f70529126a1aaf.setContent(html_af1bf878bcd1bf4b6b78a7d5f4775a8e);
+        
+
+        marker_cd00d8de46618f39e7cc667d72c42dd9.bindPopup(popup_6d3a09541fbc89a055f70529126a1aaf)
+        ;
+
+        
+    
+    
+            marker_cd00d8de46618f39e7cc667d72c42dd9.bindTooltip(
+                `<div>
+                     EDUCATION DIVERSITE EN ESPACES FRANCOPHONES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d105ba694c42e4f943c1a8bcb0a9b2c = L.marker(
+                [43.343396, 5.374423],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_54aa8c60a9f07693331618c6486dcdd2 = L.popup({"maxWidth": 400});
+
+        
+            var html_e7f56e5619afb8b92df2d058b7983dda = $(`<div id="html_e7f56e5619afb8b92df2d058b7983dda" style="width: 100.0%; height: 100.0%;">     <b>GROUPE DE RECHERCHE SUR LE HANDICAP, L'ACCESSIBILITÉ ET LES PRATIQUES ÉDUCATIVES ET SCOLAIRES</b><br>     <b>Directeur :</b> nan<br>     <b>Contact :</b> <a href="mailto:nan">nan</a><br>     <b>Université :</b> INSEI<br>     <b>Adresse :</b> Voie d'accès groupe scolaire castors servieres, 13015 Marseille, France<br>     <a href="https://www.inshea.fr/fr/content/recherche/presentation-du-grhapes" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_54aa8c60a9f07693331618c6486dcdd2.setContent(html_e7f56e5619afb8b92df2d058b7983dda);
+        
+
+        marker_1d105ba694c42e4f943c1a8bcb0a9b2c.bindPopup(popup_54aa8c60a9f07693331618c6486dcdd2)
+        ;
+
+        
+    
+    
+            marker_1d105ba694c42e4f943c1a8bcb0a9b2c.bindTooltip(
+                `<div>
+                     GROUPE DE RECHERCHE SUR LE HANDICAP, L'ACCESSIBILITÉ ET LES PRATIQUES ÉDUCATIVES ET SCOLAIRES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_725049f03d5f1cc0006e1b9b2052c08b = L.marker(
+                [45.7335, 4.83346],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_f9e2a0a5ce455d305af29355a417b5b7 = L.popup({"maxWidth": 400});
+
+        
+            var html_80628d95101c0efbd550a203101dbfea = $(`<div id="html_80628d95101c0efbd550a203101dbfea" style="width: 100.0%; height: 100.0%;">     <b>INTERACTIONS, CORPUS, APPRENTISSAGES, REPRESENTATIONS</b><br>     <b>Directeur :</b> Isabel Colón de Carvajal<br>     <b>Contact :</b> <a href="mailto:icar-dir@ens-lyon.fr">icar-dir@ens-lyon.fr</a><br>     <b>Université :</b> ENS Lyon – CNRS<br>     <b>Adresse :</b> 15 parvis René descartes BP 7000 69342 LYON Cedex 07<br>     <a href="http://icar.cnrs.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_f9e2a0a5ce455d305af29355a417b5b7.setContent(html_80628d95101c0efbd550a203101dbfea);
+        
+
+        marker_725049f03d5f1cc0006e1b9b2052c08b.bindPopup(popup_f9e2a0a5ce455d305af29355a417b5b7)
+        ;
+
+        
+    
+    
+            marker_725049f03d5f1cc0006e1b9b2052c08b.bindTooltip(
+                `<div>
+                     INTERACTIONS, CORPUS, APPRENTISSAGES, REPRESENTATIONS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93ba4ada035a78a7b1e6b8b0b3d289aa = L.marker(
+                [47.31443, 5.06625],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_0fbe93fdff6fd0a20a87502193ccb784 = L.popup({"maxWidth": 400});
+
+        
+            var html_871c8cfd80f29821afcd3fc038f00bbb = $(`<div id="html_871c8cfd80f29821afcd3fc038f00bbb" style="width: 100.0%; height: 100.0%;">     <b>INSTITUT DE RECHERCHE SUR L'EDUCATION</b><br>     <b>Directeur :</b> Sophie Morlaix<br>     <b>Contact :</b> <a href="mailto:iredu@ube.fr">iredu@ube.fr</a><br>     <b>Université :</b> COMUE Bourgogne Franche-Comté<br>     <b>Adresse :</b> Esplanade Erasme BP 27877 21078 Dijon Cedex<br>     <a href="https://iredu.u-bourgogne.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_0fbe93fdff6fd0a20a87502193ccb784.setContent(html_871c8cfd80f29821afcd3fc038f00bbb);
+        
+
+        marker_93ba4ada035a78a7b1e6b8b0b3d289aa.bindPopup(popup_0fbe93fdff6fd0a20a87502193ccb784)
+        ;
+
+        
+    
+    
+            marker_93ba4ada035a78a7b1e6b8b0b3d289aa.bindTooltip(
+                `<div>
+                     INSTITUT DE RECHERCHE SUR L'EDUCATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5180ce8ab19d3954ad90eb3e81d36233 = L.marker(
+                [44.84044, -0.5805],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_1062abf98cd302738fe505a00ff4f57a = L.popup({"maxWidth": 400});
+
+        
+            var html_788e915f70aaa591d225857d82900682 = $(`<div id="html_788e915f70aaa591d225857d82900682" style="width: 100.0%; height: 100.0%;">     <b>LABORATOIRE CULTURES EDUCATION SOCIÉTÉS</b><br>     <b>Directeur :</b> Guillaume Escalie<br>     <b>Contact :</b> <a href="mailto:guillaume.escalie@u-bordeaux.fr">guillaume.escalie@u-bordeaux.fr</a><br>     <b>Université :</b> Université de Bordeaux<br>     <b>Adresse :</b> Bordeaux, Gironde, France<br>     <a href="https://laces.u-bordeaux.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_1062abf98cd302738fe505a00ff4f57a.setContent(html_788e915f70aaa591d225857d82900682);
+        
+
+        marker_5180ce8ab19d3954ad90eb3e81d36233.bindPopup(popup_1062abf98cd302738fe505a00ff4f57a)
+        ;
+
+        
+    
+    
+            marker_5180ce8ab19d3954ad90eb3e81d36233.bindTooltip(
+                `<div>
+                     LABORATOIRE CULTURES EDUCATION SOCIÉTÉS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce994e6663d0c901059b70b3f1b731fa = L.marker(
+                [45.16667, 5.71667],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_c363ddbc53b2641d121e9467fcb8cfbb = L.popup({"maxWidth": 400});
+
+        
+            var html_0bf94ef04604d569eaef9c037d9ca90c = $(`<div id="html_0bf94ef04604d569eaef9c037d9ca90c" style="width: 100.0%; height: 100.0%;">     <b>LABORATOIRE DE RECHERCHE SUR LES APPRENTISSAGES EN CONTEXTE</b><br>     <b>Directeur :</b> Anna Potocki<br>     <b>Contact :</b> <a href="mailto:anna.potocki@univ-grenoble-alpes.fr">anna.potocki@univ-grenoble-alpes.fr</a><br>     <b>Université :</b> Université Grenoble Alpes<br>     <b>Adresse :</b> Grenoble, Isère, France<br>     <a href="https://www.larac.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_c363ddbc53b2641d121e9467fcb8cfbb.setContent(html_0bf94ef04604d569eaef9c037d9ca90c);
+        
+
+        marker_ce994e6663d0c901059b70b3f1b731fa.bindPopup(popup_c363ddbc53b2641d121e9467fcb8cfbb)
+        ;
+
+        
+    
+    
+            marker_ce994e6663d0c901059b70b3f1b731fa.bindTooltip(
+                `<div>
+                     LABORATOIRE DE RECHERCHE SUR LES APPRENTISSAGES EN CONTEXTE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99cfe40c0fa011b73e74ebbde35001d3 = L.marker(
+                [43.613132, 3.875773],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_86c4c5cee6360953f5d5909ccb34f242 = L.popup({"maxWidth": 400});
+
+        
+            var html_6315c6f88ad4f6e9ebacdfffc09c64d8 = $(`<div id="html_6315c6f88ad4f6e9ebacdfffc09c64d8" style="width: 100.0%; height: 100.0%;">     <b>LABORATOIRE INTERDISCIPLINAIRE DE RECHERCHE EN DIDACTIQUE, EDUCATION ET FORMATION</b><br>     <b>Directeur :</b> Jean-Marc Lange<br>     <b>Contact :</b> <a href="mailto:jean-marc.lange@umontpellier.fr">jean-marc.lange@umontpellier.fr</a><br>     <b>Université :</b> Université de Montpellier+Université Paul Valéry - Montpellier3<br>     <b>Adresse :</b> Plan de l'Université dit Place Candolle, 34000 Montpellier, France<br>     <a href="https://lirdef.edu.umontpellier.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_86c4c5cee6360953f5d5909ccb34f242.setContent(html_6315c6f88ad4f6e9ebacdfffc09c64d8);
+        
+
+        marker_99cfe40c0fa011b73e74ebbde35001d3.bindPopup(popup_86c4c5cee6360953f5d5909ccb34f242)
+        ;
+
+        
+    
+    
+            marker_99cfe40c0fa011b73e74ebbde35001d3.bindTooltip(
+                `<div>
+                     LABORATOIRE INTERDISCIPLINAIRE DE RECHERCHE EN DIDACTIQUE, EDUCATION ET FORMATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b9d412eae337899afd2226ca5a32a20 = L.marker(
+                [48.834123, 2.323324],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_8749e8efd44a2de12647314a27be6417 = L.popup({"maxWidth": 400});
+
+        
+            var html_a38879a4860b99b700d07e047cf5ac2d = $(`<div id="html_a38879a4860b99b700d07e047cf5ac2d" style="width: 100.0%; height: 100.0%;">     <b>LABORATOIRE INTERDISCIPLINAIRE DE RECHERCHE SUR LES TRANSFORMATIONS DES PRATIQUES EDUCATIVES ET DES PRATIQUES SOCIALES</b><br>     <b>Directeur :</b> Pierrine Robin<br>     <b>Contact :</b> <a href="mailto:pierrine.robin@u-pec.fr">pierrine.robin@u-pec.fr</a><br>     <b>Université :</b> Université Paris Est Créteil<br>     <b>Adresse :</b> Square de l'Aide Sociale, 75014 Paris, France<br>     <a href="http://lirtes.u-pec.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_8749e8efd44a2de12647314a27be6417.setContent(html_a38879a4860b99b700d07e047cf5ac2d);
+        
+
+        marker_6b9d412eae337899afd2226ca5a32a20.bindPopup(popup_8749e8efd44a2de12647314a27be6417)
+        ;
+
+        
+    
+    
+            marker_6b9d412eae337899afd2226ca5a32a20.bindTooltip(
+                `<div>
+                     LABORATOIRE INTERDISCIPLINAIRE DE RECHERCHE SUR LES TRANSFORMATIONS DES PRATIQUES EDUCATIVES ET DES PRATIQUES SOCIALES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6214c6bd49105941d09ad388649cdb9 = L.marker(
+                [43.71857, 7.267382],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_a1e363167d5504f2dc17ef5462a7ebc6 = L.popup({"maxWidth": 400});
+
+        
+            var html_ddc62b323a5d56b336133572b5f442dc = $(`<div id="html_ddc62b323a5d56b336133572b5f442dc" style="width: 100.0%; height: 100.0%;">     <b>LABORATOIRE INTER-UNIVERSITAIRE DES SCIENCES DE L'EDUCATION ET DE LA COMMUNCATION</b><br>     <b>Directeur :</b> Pascal Marquet<br>     <b>Contact :</b> <a href="mailto:pascal.marquet@unistra.fr">pascal.marquet@unistra.fr</a><br>     <b>Université :</b> UL, US, UHA<br>     <b>Adresse :</b> Voie de la Cité Universitaire Monte Bello et Faculté des Sciences Valrose, 06000 Nice, France<br>     <a href="http://www.lisec-recherche.eu/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_a1e363167d5504f2dc17ef5462a7ebc6.setContent(html_ddc62b323a5d56b336133572b5f442dc);
+        
+
+        marker_d6214c6bd49105941d09ad388649cdb9.bindPopup(popup_a1e363167d5504f2dc17ef5462a7ebc6)
+        ;
+
+        
+    
+    
+            marker_d6214c6bd49105941d09ad388649cdb9.bindTooltip(
+                `<div>
+                     LABORATOIRE INTER-UNIVERSITAIRE DES SCIENCES DE L'EDUCATION ET DE LA COMMUNCATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89374bb58c6a1eab1fd487b064de6598 = L.marker(
+                [45.750059, 4.840737],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_1275b4fc2c0248612354099330f4fd7c = L.popup({"maxWidth": 400});
+
+        
+            var html_bd585a2de7bfc870b46c3a2529a2818c = $(`<div id="html_bd585a2de7bfc870b46c3a2529a2818c" style="width: 100.0%; height: 100.0%;">     <b>SCIENCES, SOCIÉTÉ, HISTORICITE, EDUCATION, PRATIQUES</b><br>     <b>Directeur :</b> Catherine Bruguiere<br>     <b>Contact :</b> <a href="mailto:catherine.bruguiere@univ-lyon1.fr">catherine.bruguiere@univ-lyon1.fr</a><br>     <b>Université :</b> Université de Lyon 1<br>     <b>Adresse :</b> Rue de l'Université, 69007 Lyon, France<br>     <a href="https://s2hep.univ-lyon1.fr/" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_1275b4fc2c0248612354099330f4fd7c.setContent(html_bd585a2de7bfc870b46c3a2529a2818c);
+        
+
+        marker_89374bb58c6a1eab1fd487b064de6598.bindPopup(popup_1275b4fc2c0248612354099330f4fd7c)
+        ;
+
+        
+    
+    
+            marker_89374bb58c6a1eab1fd487b064de6598.bindTooltip(
+                `<div>
+                     SCIENCES, SOCIÉTÉ, HISTORICITE, EDUCATION, PRATIQUES
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cdfee9e47c58478931bb949c04ef619b = L.marker(
+                [-20.90215, 55.48522],
+                {}
+            ).addTo(map_84c8293a6e2572275e2154ed8b024590);
+        
+    
+        var popup_623bafb082237f94daa90c119e8d7a67 = L.popup({"maxWidth": 400});
+
+        
+            var html_90796f3d865a5e1b0ee8ea6be2727710 = $(`<div id="html_90796f3d865a5e1b0ee8ea6be2727710" style="width: 100.0%; height: 100.0%;">     <b>INSTITUT COOPERATIF AUSTRAL DE RECHERCHE EN EDUCATION</b><br>     <b>Directeur :</b> Séverine Ferrière<br>     <b>Contact :</b> <a href="mailto:severine.ferriere@univ-reunion.fr">severine.ferriere@univ-reunion.fr</a><br>     <b>Université :</b> Université de la Réunion<br>     <b>Adresse :</b> 15 avenue rené cassin, CS 920003 Saint Denis 974000 La Réunion<br>     <a href="https://icare.univ-reunion.fr" target="_blank">🔗 Visiter le site web</a>     </div>`)[0];
+            popup_623bafb082237f94daa90c119e8d7a67.setContent(html_90796f3d865a5e1b0ee8ea6be2727710);
+        
+
+        marker_cdfee9e47c58478931bb949c04ef619b.bindPopup(popup_623bafb082237f94daa90c119e8d7a67)
+        ;
+
+        
+    
+    
+            marker_cdfee9e47c58478931bb949c04ef619b.bindTooltip(
+                `<div>
+                     INSTITUT COOPERATIF AUSTRAL DE RECHERCHE EN EDUCATION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
